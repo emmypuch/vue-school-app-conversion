@@ -2,7 +2,7 @@
   <div>
     <!-- Hire Talent Section Begins -->
     <section id="hire-talent-container" class="">
-      <div class="hire-talent-flex flex justify-between pl-20 pr-20 pt-8">
+      <div class="hire-talent-flex flex justify-between pl-20 pr-20 pt-20">
         <div class="hire-talent-description">
           <h1 class="text-6xl font-extrabold text-white pl-8 leading-tight">
             Hire the Best <br />

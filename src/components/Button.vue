@@ -1,21 +1,29 @@
 <template>
-  <div id="button" class="mt-20 pl-10">
-    <a
-      href="#"
-      class="btn1 text-white text-lg px-8 py-6 leading-tight rounded-full font-bold transition-all focus:outline-none focus:ring-2"
-    >
-      REQUEST ACCESS
-    </a>
-    <a
-      href="#"
-      class="btn2 bg-white text-lg px-8 ml-4 py-6 leading-tight rounded-full font-bold transition-all focus:outline-none focus:ring-2"
-      >APPLY AS DEVELOPER</a
-    >
+  <div>
+    <div id="button" class="mt-20 pl-10">
+      <a
+        href="#"
+        class="btn1 text-white text-lg px-8 py-6 leading-tight rounded-full font-bold transition-all focus:outline-none focus:ring-2"
+      >
+        REQUEST ACCESS
+      </a>
+      <a
+        href="#"
+        class="btn2 bg-white text-lg px-8 ml-4 py-6 leading-tight rounded-full font-bold transition-all focus:outline-none focus:ring-2"
+        >APPLY AS DEVELOPER</a
+      >
+    </div>
+    <Access />
   </div>
 </template>
 
 <script>
-export default {};
+import Access from "./Access.vue";
+export default {
+  components: {
+    Access,
+  },
+};
 </script>
 
 <style scoped>

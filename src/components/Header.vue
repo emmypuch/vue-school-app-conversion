@@ -1,7 +1,7 @@
 <template>
   <div id="navLinks">
     <!-- Header Section Begins -->
-    <header class="flex justify-between p-14">
+    <header class="flex justify-between pr-14 pl-14 pt-8">
       <div class="headerLogo">
         <a href="/"><img :src="Image" alt="Vue School Logo" class="w-32" /></a>
       </div>
