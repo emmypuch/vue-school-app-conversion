@@ -1,16 +1,24 @@
 <template>
   <div id="navLinks">
-    <header class="flex">
+    <!-- Header Section Begins -->
+    <header class="flex justify-between p-14">
       <div class="headerLogo">
-        <h1>Logo</h1>
-        <!-- <a href="/"><img :src="Image" alt="" /></a> -->
+        <a href="/"><img :src="Image" alt="Vue School Logo" class="w-32" /></a>
       </div>
       <div class="navbar">
-        <div class="menu-lists">
-          <router-link to="/about" id="listItems">Courses</router-link>
-          <a href="/#projects" id="listItems">Workshops</a>
-          <a href="/#contact" id="listItems">Plans</a>
-          <a href="/#contact" id="listItemsLink">Login</a>
+        <div class="menu-lists text-white">
+          <router-link
+            to="/courses"
+            id="listItems"
+            class="m-4 font-bold text-sm"
+            >COURSES</router-link
+          >
+          <a href="/#workshop" id="listItems" class="m-4 font-bold text-sm"
+            >WORKSHOPS</a
+          >
+          <a href="/#plan" id="listItems" class="m-4 font-bold text-sm"
+            >PLANS</a
+          >
         </div>
         <!-- <div class="hamburger">
           <span class="line line1"></span>
@@ -18,16 +26,28 @@
           <span class="line line3"></span>
         </div> -->
       </div>
+      <div class="listItemsLinkContainer">
+        <a
+          href="/#contact"
+          id="listItemsLink"
+          class="text-white font-bold text-sm"
+          >LOGIN</a
+        >
+      </div>
     </header>
   </div>
 </template>
 
 <script>
-// const Image = require("../assets/images/headerLogo.png");
+const Image = require("../assets/images/vueschool.svg");
 export default {
   name: "Header",
   data() {
-    return {};
+    return {
+      Image,
+
+      msg: "",
+    };
   },
 };
 </script>
@@ -43,7 +63,7 @@ body {
   overflow: hidden;
 }
 
-section#header {
+header {
   background-color: #28335d;
 }
 </style>
