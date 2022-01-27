@@ -21,6 +21,7 @@ export default {};
 <style scoped>
 .btn1 {
   background-color: #5ac0fe;
+  cursor: pointer;
 }
 
 .btn1:hover {
@@ -29,6 +30,7 @@ export default {};
 
 .btn2 {
   color: #667cff;
+  cursor: pointer;
 }
 
 .btn2:hover {
