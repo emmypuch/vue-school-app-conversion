@@ -41,7 +41,7 @@ export default {
 
 <style scoped>
 section#hire-talent-container {
-  background-color: #28335d;
+  background-color: #242d55;
 }
 
 div.hire-talent-description p {

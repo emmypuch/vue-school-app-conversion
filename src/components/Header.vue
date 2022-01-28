@@ -64,6 +64,6 @@ body {
 }
 
 header {
-  background-color: #28335d;
+  background-color: #242d55;
 }
 </style>
