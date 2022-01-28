@@ -1,6 +1,6 @@
 <template>
-  <div class="card-content pl-24 pr-24 pt-20 pb-10">
-    <div class="card-wrapper p-6 w-full rounded-md">
+  <div class="card-content pl-24 pr-24 pt-20 pb-32">
+    <div class="card-wrapper pl-6 pr-6 pt-6 pb-8 w-full rounded-md">
       <h5 class="pl-6 pt-2 text-white text-base font-medium">{{ msg }}</h5>
       <div
         class="skillset-logo-wrapper flex items-center justify-between overflow-auto ml-4 mt-10"
