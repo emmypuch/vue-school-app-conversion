@@ -1,5 +1,5 @@
 <template>
-  <div class="p-10">hello</div>
+  <div class="pl-24 pr-24 pt-32">hello</div>
 </template>
 
 <script>
