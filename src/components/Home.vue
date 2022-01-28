@@ -4,6 +4,7 @@
     <Talent />
     <LogoCard />
     <DirectAccess />
+    <DevSearch />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from "./Header.vue";
 import Talent from "./Talent.vue";
 import LogoCard from "./LogoCard.vue";
 import DirectAccess from "./DirectAccess.vue";
+import DevSearch from "./DevSearch.vue";
 
 export default {
   name: "Home",
@@ -20,6 +22,7 @@ export default {
     Talent,
     LogoCard,
     DirectAccess,
+    DevSearch,
   },
 };
 </script>
