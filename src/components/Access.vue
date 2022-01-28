@@ -1,7 +1,9 @@
 <template>
   <div class="pl-10 pb-10">
-    <div class="access-container flex p-4 rounded-md space-x-2 mt-14">
-      <div class="image p-3 rounded-md flex-shrink-0">
+    <div class="access-container flex p-4 rounded-md space-x-2 mt-24 w-full">
+      <div
+        class="image p-3 rounded-md flex-shrink-0 justify-items-center items-center flex"
+      >
         <img :src="Image" alt="timer" />
       </div>
       <div class="text-content">
