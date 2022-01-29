@@ -50,17 +50,17 @@
         </div>
       </div>
     </div>
-    <DevSearch />
+    <!-- <DevSearch /> -->
   </div>
 </template>
 
 <script>
-import DevSearch from "./DevSearch.vue";
+// import DevSearch from "./DevSearch.vue";
 const Image = require("../assets/images/devs.svg");
 const ImageSkill = require("../assets/images/skills.svg");
 const ImageTime = require("../assets/images/time.svg");
 export default {
-  components: { DevSearch },
+  components: {},
   data() {
     return {
       msg: "Direct Access Hiring",
@@ -89,8 +89,4 @@ div.card {
 p {
   color: #646c95;
 }
-
-/* div.border-card {
-  top: 0px;
-} */
 </style>
