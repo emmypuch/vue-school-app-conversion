@@ -1,6 +1,6 @@
 <template>
-  <div class="dev-search-wrapper pl-24 pr-24 pt-14">
-    <!-- <h1 class="text-center text-4xl font-bold">{{ msg }}</h1>
+  <div class="dev-search-wrapper pl-24 pr-24 pt-14 relative mt-48">
+    <h1 class="text-center text-4xl font-bold">{{ msg }}</h1>
     <div class="dev-search-numbers-wrapper">
       <div class="number-container rounded-xl"></div>
     </div>
@@ -30,7 +30,7 @@
           Gain access to our data base of 100’s of Vue developers
         </p>
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -39,7 +39,7 @@ const Image = require("../assets/images/devs.svg");
 export default {
   data() {
     return {
-      //   msg: "How Dev Search Works",
+      msg: "How Dev Search Works",
       Image,
     };
   },
