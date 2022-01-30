@@ -51,6 +51,11 @@
       </div>
     </div>
     <!-- <DevSearch /> -->
+    <div class="devSearch p-16">
+      <h2 class="text-center text-4xl font-bold mt-32 text-red-700">
+        Hello World
+      </h2>
+    </div>
   </div>
 </template>
 
