@@ -5,6 +5,7 @@
     <LogoCard />
     <DirectAccess />
     <DevSearch />
+    <Service />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Talent from "./Talent.vue";
 import LogoCard from "./LogoCard.vue";
 import DirectAccess from "./DirectAccess.vue";
 import DevSearch from "./DevSearch.vue";
+import Service from "./Service.vue";
 
 export default {
   name: "Home",
@@ -23,6 +25,7 @@ export default {
     LogoCard,
     DirectAccess,
     DevSearch,
+    Service,
   },
 };
 </script>
