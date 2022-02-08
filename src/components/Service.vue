@@ -11,11 +11,40 @@
         </p>
         <div class="border mt-20"></div>
         <ul class="mt-4">
-          <li>Profesional Vetting</li>
-          <li>Faster Hiring Process</li>
-          <li>Higher Quality Candidates</li>
-          <li>Custom Realworld Tests + Assements</li>
-          <li>3 Month Placement Guarantee</li>
+          <div class="flex">
+            <div class="circle mt-3"></div>
+            <li class="ml-2 text-white text-lg font-bold">
+              Profesional Vetting
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              Faster Hiring Process
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              Higher Quality Candidates
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              Custom Realworld Tests + Assements
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              3 Month Placement Guarantee
+            </li>
+          </div>
         </ul>
       </div>
 
@@ -69,5 +98,12 @@ div.border {
 
 p {
   color: #aeb6e3;
+}
+
+.circle {
+  background-color: #667cff;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
 }
 </style>
