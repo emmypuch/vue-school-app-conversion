@@ -64,6 +64,22 @@
         </p>
       </div>
     </div>
+
+    <div class="button mt-12 flex justify-center items-center">
+      <div id="button" class="mt-20 pl-10">
+        <a
+          href="#"
+          class="btn1 text-white text-lg px-8 py-6 leading-tight rounded-full font-bold transition-all focus:outline-none focus:ring-2"
+        >
+          REQUEST ACCESS
+        </a>
+        <a
+          href="#"
+          class="btn2 bg-transparent text-lg px-8 ml-4 py-6 leading-tight rounded-full font-bold transition-all focus:outline-none focus:ring-2"
+          >APPLY AS DEVELOPER</a
+        >
+      </div>
+    </div>
   </div>
 </template>
 
@@ -100,5 +116,24 @@ div.card-content h3 {
 
 p {
   color: #646c95;
+}
+
+.btn1 {
+  background-color: #5ac0fe;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background-color: #57d7ff;
+}
+
+.btn2 {
+  color: #667cff;
+  cursor: pointer;
+  border: 2px solid #667cff;
+}
+
+.btn2:hover {
+  background-color: #e3edff;
 }
 </style>
