@@ -140,10 +140,11 @@
         </ul>
       </div>
     </div>
-    <div class="button flex justify-center items-center mt-12">
+
+    <div class="text-center mt-16">
       <a
         href="#"
-        class="text-white text-base font-bold rounded-full transition-all focus:outline-none focus:ring-2 px-8 py-6 leading-tight"
+        class="text-white text-sm font-bold rounded-full transition-all focus:outline-none focus:ring-2 px-8 py-4 leading-tight"
         >CONTACT US</a
       >
     </div>
@@ -168,7 +169,7 @@ export default {
 
 <style scoped>
 div.service-wrapper {
-  background-color: #242d55;
+  background-color: #1d233e;
 }
 
 div.card {
@@ -192,7 +193,14 @@ p {
   width: 5px;
 }
 
-.button {
+a {
   background-color: #667cff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #364fde;
 }
 </style>
