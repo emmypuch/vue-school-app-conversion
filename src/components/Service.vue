@@ -1,9 +1,9 @@
 <template>
-  <div class="service-wrapper pl-24 pr-24 pt-14 mt-16">
-    <h1 class="text-center text-4xl font-bold mt-8 text-white">{{ msg }}</h1>
-    <div class="service-card-wrapper flex justify-between mt-8">
+  <div class="service-wrapper pl-24 pr-24 pt-14 mt-16 pb-24">
+    <h1 class="text-center text-4xl font-bold mt-6 text-white">{{ msg }}</h1>
+    <div class="service-card-wrapper flex justify-between mt-14">
       <div class="card p-10 rounded-md h-full">
-        <img :src="Image" alt="" class="h-20" />
+        <img :src="ImageRay" alt="" class="h-20" />
         <h2 class="text-white text-3xl font-bold mt-6">Hands Off Hiring</h2>
         <p class="mt-4 mb-6 text-lg">
           We handle the entire hiring process for you, allowing you to focus on
@@ -49,7 +49,7 @@
       </div>
 
       <div class="card p-10 rounded-md h-full ml-6">
-        <img :src="Image" alt="" class="h-20" />
+        <img :src="ImageStar" alt="" class="h-20" />
         <h2 class="text-white text-3xl font-bold mt-6">Custom Assesments</h2>
         <p class="mt-4 mb-6 text-lg">
           We handle the entire hiring process for you, allowing you to focus on
@@ -95,7 +95,7 @@
       </div>
 
       <div class="card p-10 rounded-md ml-6">
-        <img :src="Image" alt="" class="h-20" />
+        <img :src="ImagePeople" alt="" class="h-20" />
         <h2 class="text-white text-3xl font-bold mt-6">Team Training</h2>
         <p class="mt-4 mb-6 text-lg">
           To keep your team performing at its peak, you need to ensure they are
@@ -140,16 +140,27 @@
         </ul>
       </div>
     </div>
+    <div class="button flex justify-center items-center mt-12">
+      <a
+        href="#"
+        class="text-white text-base font-bold rounded-full transition-all focus:outline-none focus:ring-2 px-8 py-6 leading-tight"
+        >CONTACT US</a
+      >
+    </div>
   </div>
 </template>
 
 <script>
-const Image = require("../assets/images/search.png");
+const ImageRay = require("../assets/images/ray.png");
+const ImageStar = require("../assets/images/star.png");
+const ImagePeople = require("../assets/images/people.png");
 export default {
   data() {
     return {
       msg: "Additional Services",
-      Image,
+      ImageRay,
+      ImageStar,
+      ImagePeople,
     };
   },
 };
@@ -179,5 +190,9 @@ p {
   border-radius: 50%;
   height: 5px;
   width: 5px;
+}
+
+.button {
+  background-color: #667cff;
 }
 </style>
