@@ -6,6 +6,7 @@
     <DirectAccess />
     <DevSearch />
     <Service />
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import LogoCard from "./LogoCard.vue";
 import DirectAccess from "./DirectAccess.vue";
 import DevSearch from "./DevSearch.vue";
 import Service from "./Service.vue";
+import Footer from "./Footer.vue";
 
 export default {
   name: "Home",
@@ -26,6 +28,7 @@ export default {
     DirectAccess,
     DevSearch,
     Service,
+    Footer,
   },
 };
 </script>

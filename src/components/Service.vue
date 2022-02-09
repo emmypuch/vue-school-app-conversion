@@ -1,5 +1,5 @@
 <template>
-  <div class="service-wrapper pl-24 pr-24 pt-14 mt-16 pb-24">
+  <div class="service-wrapper pl-24 pr-24 pt-14 mt-16 pb-32">
     <h1 class="text-center text-4xl font-bold mt-6 text-white">{{ msg }}</h1>
     <div class="service-card-wrapper flex justify-between mt-14">
       <div class="card p-10 rounded-md h-full">
