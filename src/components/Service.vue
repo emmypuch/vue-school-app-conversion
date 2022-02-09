@@ -1,8 +1,8 @@
 <template>
   <div class="service-wrapper pl-24 pr-24 pt-14 mt-16">
-    <h1 class="text-center text-4xl font-bold mt-12 text-white">{{ msg }}</h1>
-    <div class="service-card-wrapper flex justify-center items-center mt-8">
-      <div class="card p-10 rounded-md">
+    <h1 class="text-center text-4xl font-bold mt-8 text-white">{{ msg }}</h1>
+    <div class="service-card-wrapper flex justify-between mt-8">
+      <div class="card p-10 rounded-md h-full">
         <img :src="Image" alt="" class="h-20" />
         <h2 class="text-white text-3xl font-bold mt-6">Hands Off Hiring</h2>
         <p class="mt-4 mb-6 text-lg">
@@ -48,22 +48,96 @@
         </ul>
       </div>
 
-      <div class="card p-8 ml-6">
+      <div class="card p-10 rounded-md h-full ml-6">
         <img :src="Image" alt="" class="h-20" />
-        <h2>Hands Off Hiring</h2>
-        <p>
+        <h2 class="text-white text-3xl font-bold mt-6">Custom Assesments</h2>
+        <p class="mt-4 mb-6 text-lg">
           We handle the entire hiring process for you, allowing you to focus on
           expanding your business rather than your development team.
         </p>
+        <div class="border mt-20"></div>
+        <ul class="mt-4">
+          <div class="flex">
+            <div class="circle mt-3"></div>
+            <li class="ml-2 text-white text-lg font-bold">
+              Identify hidden skills
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              Reduce time to hire
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              Create consistant hiring standards
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              Custom Realworld Tests + Assements
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              3 Month Placement Guarantee
+            </li>
+          </div>
+        </ul>
       </div>
 
-      <div class="card p-8 ml-6">
+      <div class="card p-10 rounded-md ml-6">
         <img :src="Image" alt="" class="h-20" />
-        <h2>Hands Off Hiring</h2>
-        <p>
-          We handle the entire hiring process for you, allowing you to focus on
-          expanding your business rather than your development team.
+        <h2 class="text-white text-3xl font-bold mt-6">Team Training</h2>
+        <p class="mt-4 mb-6 text-lg">
+          To keep your team performing at its peak, you need to ensure they are
+          up to date with the latest technological innovations and tools.
         </p>
+        <div class="border mt-20"></div>
+        <ul class="mt-4">
+          <div class="flex">
+            <div class="circle mt-3"></div>
+            <li class="ml-2 text-white text-lg font-bold">
+              Remove Knowledge gaps
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              Maintain a highly effective team
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              Produce better results
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              Custom Realworld Tests + Assements
+            </li>
+          </div>
+
+          <div class="flex">
+            <div class="circle mt-5"></div>
+            <li class="ml-2 text-lg font-bold text-white mt-2">
+              Keep your developers engaged
+            </li>
+          </div>
+        </ul>
       </div>
     </div>
   </div>
