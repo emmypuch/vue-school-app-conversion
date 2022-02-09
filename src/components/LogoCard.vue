@@ -1,5 +1,5 @@
 <template>
-  <div class="card-content pl-24 pr-24 pt-20 pb-48">
+  <div class="card-content pl-24 pr-24 pt-20 pb-12">
     <div class="card-wrapper pl-6 pr-6 pt-6 pb-8 w-full rounded-md">
       <h5 class="pl-6 pt-2 text-white text-base font-medium">{{ msg }}</h5>
       <div

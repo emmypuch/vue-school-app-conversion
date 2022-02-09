@@ -3,6 +3,7 @@
     <Header />
     <Talent />
     <LogoCard />
+    <ExperienceDev />
     <DirectAccess />
     <DevSearch />
     <Service />
@@ -14,6 +15,7 @@
 import Header from "./Header.vue";
 import Talent from "./Talent.vue";
 import LogoCard from "./LogoCard.vue";
+import ExperienceDev from "./ExperienceDev.vue";
 import DirectAccess from "./DirectAccess.vue";
 import DevSearch from "./DevSearch.vue";
 import Service from "./Service.vue";
@@ -25,6 +27,7 @@ export default {
     Header,
     Talent,
     LogoCard,
+    ExperienceDev,
     DirectAccess,
     DevSearch,
     Service,
