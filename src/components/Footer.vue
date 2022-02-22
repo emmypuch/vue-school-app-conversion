@@ -1,6 +1,6 @@
 <template>
   <div class="footer-wrapper pl-20 pr-20 pt-16 pb-12">
-    <div class="footer-content flex justify-between">
+    <div class="footer-content flex sm:flex-col md:flex-col lg:justify-between">
       <div class="footer-link">
         <ul class="flex">
           <li class="text-white text-sm font-bold ml-4">
@@ -32,4 +32,11 @@ export default {};
 div.footer-wrapper {
   background-color: #242d55;
 }
+
+/* @media screen and (max-width: 768px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+} */
 </style>
